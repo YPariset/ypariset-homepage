@@ -6,6 +6,7 @@ import {
   Image,
   SimpleGrid,
   Button,
+  Link,
   useColorModeValue
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
@@ -102,20 +103,26 @@ const Home = () => (
         </Heading>
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
+        <NextLink href="/works/feelinFood">
+          <Link style={{ textDecoration: 'none', color: 'white' }}>
           <GridItem
-            href="https://feelinfoodfrance.000webhostapp.com/"
             title="Feelin'Food"
             thumbnail={thumbFeelinFood}
           >
             A PHP e-commerce web application designing around food delivery.
           </GridItem>
-          <GridItem
-            href="https://github.com/YPariset/School-U"
-            title="School-and-U"
-            thumbnail={thumbSchoolU}
-          >
-            A React-native app that reinvents communication between parents and teachers.
-          </GridItem>
+          </Link>
+        </NextLink>
+        <NextLink href="/works/schoolU">
+          <Link style={{ textDecoration: 'none', color: 'white' }}>
+            <GridItem
+              title="School-and-U"
+              thumbnail={thumbSchoolU}
+            >
+              A React-native app that reinvents communication between parents and teachers.
+            </GridItem>
+          </Link>
+          </NextLink>
         </SimpleGrid>
       </Section>
     </Container>

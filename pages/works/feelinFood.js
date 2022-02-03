@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="feelinFood">
     <Container>
       <Title>
-      feelin`&apos;`Food <Badge>2020-</Badge>
+      feelin&apos;Food <Badge>2020-</Badge>
       </Title>
       <P>
         A PHP e-commerce web application.
