@@ -89,11 +89,9 @@ const Home = () => (
           Works as a freelance
         </BioSection>
         <Box align="center" my={4}>
-          <NextLink href="/works">
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
+            <Button rightIcon={<ChevronRightIcon />} href="" colorScheme="teal">
+              My portoflio
             </Button>
-          </NextLink>
         </Box>
       </Section>
 
@@ -104,7 +102,7 @@ const Home = () => (
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
         <NextLink href="/works/feelinFood">
-          <Link style={{ textDecoration: 'none', color: 'white' }}>
+          <Link style={{color: 'inherit', textDecoration: 'none'}}>
           <GridItem
             title="Feelin'Food"
             thumbnail={thumbFeelinFood}
@@ -114,7 +112,7 @@ const Home = () => (
           </Link>
         </NextLink>
         <NextLink href="/works/schoolU">
-          <Link style={{ textDecoration: 'none', color: 'white' }}>
+          <Link style={{color: 'inherit', textDecoration: 'none'}}>
             <GridItem
               title="School-and-U"
               thumbnail={thumbSchoolU}
