@@ -15,7 +15,7 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta httpEquiv="content-language" content="fr"/>
-        <meta charset="UTF-8"/>
+        <meta charSet="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Yoann Pariset homepage" />
         <meta name="author" content="Yoann Pariset" />
@@ -27,13 +27,13 @@ const Main = ({ children, router }) => {
         <meta property="og:image" content="/card.png" />
         <meta name="keywords" content="Yoann, Pariset, Sorbonne, Sorbonne Universite, Developpeur web, CFA, Sciences, Three.js, Three, JS, HTML, CSS, PHP, Java, Javascript, React-native"/>
         <meta name="description" content="Développeur web à la Sorbonne | CFA des Sciences"/>
-        <meta itemprop="name" content="Yoann Pariset - Developpeur junior full stack"/>
-        <meta itemprop="description" content="Développeur web à la Sorbonne | CFA des Sciences"/>
+        <meta itemProp="name" content="Yoann Pariset - Developpeur junior full stack"/>
+        <meta itemProp="description" content="Développeur web à la Sorbonne | CFA des Sciences"/>
         <meta property="og:url" content="https://ypariset.fr"/>
         <meta property="og:title" content="Yoann Pariset - Developpeur junior full stack"/>
         <meta property="og:description" content="Développeur web à la Sorbonne | CFA des Sciences"/>
         <meta property="og:image" content="https://docs.ypariset.fr/presentation_website.png"/>
-        <meta itemprop="image" content="https://docs.ypariset.fr/presentation_website.png"/>
+        <meta itemProp="image" content="https://docs.ypariset.fr/presentation_website.png"/>
         <meta name="apple-mobile-web-app-title" content="Yoann"/>
         <meta name="application-name" content="Yoann Pariset"/>
       </Head>
