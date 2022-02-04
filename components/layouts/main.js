@@ -34,6 +34,7 @@ const Main = ({ children, router }) => {
         <meta itemProp="image" content="https://docs.ypariset.fr/presentation_website.png"/>
         <meta name="apple-mobile-web-app-title" content="Yoann"/>
         <meta name="application-name" content="Yoann Pariset"/>
+        <title>Pariset Yoann - junior full-stack developer</title>
       </Head>
 
       <NavBar path={router.asPath} />
