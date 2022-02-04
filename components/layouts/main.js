@@ -20,8 +20,6 @@ const Main = ({ children, router }) => {
         <meta name="description" content="Yoann Pariset homepage" />
         <meta name="author" content="Yoann Pariset" />
         <meta name="author" content="parizoo" />
-        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta property="og:site_name" content="Yoann Pariset Homepage" />
         <meta property="og:type" content="website" />
         <meta name="keywords" content="Yoann, Pariset, Sorbonne, Sorbonne Universite, Developpeur web, CFA, Sciences, Three.js, Three, JS, HTML, CSS, PHP, Java, Javascript, React-native"/>
@@ -35,6 +33,8 @@ const Main = ({ children, router }) => {
         <meta name="apple-mobile-web-app-title" content="Yoann"/>
         <meta name="application-name" content="Yoann Pariset"/>
         <title>Pariset Yoann - junior full-stack developer</title>
+        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
       </Head>
 
       <NavBar path={router.asPath} />
