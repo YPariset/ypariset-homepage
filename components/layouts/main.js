@@ -24,15 +24,13 @@ const Main = ({ children, router }) => {
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta property="og:site_name" content="Yoann Pariset Homepage" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/card.png" />
         <meta name="keywords" content="Yoann, Pariset, Sorbonne, Sorbonne Universite, Developpeur web, CFA, Sciences, Three.js, Three, JS, HTML, CSS, PHP, Java, Javascript, React-native"/>
         <meta name="description" content="Développeur web à la Sorbonne | CFA des Sciences"/>
-        <meta itemProp="name" content="Yoann Pariset - Developpeur junior full stack"/>
-        <meta itemProp="description" content="Développeur web à la Sorbonne | CFA des Sciences"/>
-        <meta property="og:url" content="https://ypariset.fr"/>
         <meta property="og:title" content="Yoann Pariset - Developpeur junior full stack"/>
         <meta property="og:description" content="Développeur web à la Sorbonne | CFA des Sciences"/>
         <meta property="og:image" content="https://docs.ypariset.fr/presentation_website.png"/>
+        <meta itemProp="name" content="Yoann Pariset - Developpeur junior full stack"/>
+        <meta itemProp="description" content="Développeur web à la Sorbonne | CFA des Sciences"/>
         <meta itemProp="image" content="https://docs.ypariset.fr/presentation_website.png"/>
         <meta name="apple-mobile-web-app-title" content="Yoann"/>
         <meta name="application-name" content="Yoann Pariset"/>
