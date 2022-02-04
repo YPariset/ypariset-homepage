@@ -14,7 +14,7 @@ const Main = ({ children, router }) => {
   return (
     <Box as="main" pb={8}>
       <Head>
-        <meta http-equiv="content-language" content="fr"/>
+        <meta httpEquiv="content-language" content="fr"/>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Yoann Pariset homepage" />
