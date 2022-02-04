@@ -26,10 +26,10 @@ const Main = ({ children, router }) => {
         <meta name="description" content="Développeur web à la Sorbonne | CFA des Sciences"/>
         <meta property="og:title" content="Yoann Pariset - Developpeur junior full stack"/>
         <meta property="og:description" content="Développeur web à la Sorbonne | CFA des Sciences"/>
-        <meta property="og:image" content="https://docs.ypariset.fr/presentation_website.png"/>
+        <meta property="og:image" content="https://docs.ypariset.fr/presentation.png"/>
         <meta itemProp="name" content="Yoann Pariset - Developpeur junior full stack"/>
         <meta itemProp="description" content="Développeur web à la Sorbonne | CFA des Sciences"/>
-        <meta itemProp="image" content="https://docs.ypariset.fr/presentation_website.png"/>
+        <meta itemProp="image" content="https://docs.ypariset.fr/presentation.png"/>
         <meta name="apple-mobile-web-app-title" content="Yoann"/>
         <meta name="application-name" content="Yoann Pariset"/>
         <title>Pariset Yoann - junior full-stack developer</title>
