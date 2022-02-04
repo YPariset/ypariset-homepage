@@ -89,9 +89,11 @@ const Home = () => (
           Works as a freelance
         </BioSection>
         <Box align="center" my={4}>
+          <Link href="https://io.ypariset.fr" isExternal style={{color: 'inherit', textDecoration: 'none'}}>
             <Button rightIcon={<ChevronRightIcon />} href="" colorScheme="teal">
-              My portoflio
+              My Resume
             </Button>
+          </Link>
         </Box>
       </Section>
 
