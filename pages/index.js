@@ -85,8 +85,12 @@ const Home = () => (
           Major as an Analyst Developer of software applications with Coding Factory School
         </BioSection>
         <BioSection>
-          <BioYear>2020 to present</BioYear>
+          <BioYear>2020</BioYear>
           Works as a freelance
+        </BioSection>
+        <BioSection>
+          <BioYear>2021</BioYear>
+        Currently on a work-study program at Sorbonne University and CNP Assurance
         </BioSection>
         <Box align="center" my={4}>
           <Link href="https://io.ypariset.fr" isExternal style={{color: 'inherit', textDecoration: 'none'}}>
