@@ -8,7 +8,7 @@
   height: 100vh;
 }
 
-.scanLabel:hover .cursor {
+.resumeDiv:hover .cursor {
   visibility: visible;
 }
 
