@@ -25,7 +25,7 @@ export default function Works() {
     }
   }
 
-  const { locale, locales, defaultLocale, asPath } = useRouter()
+  const { locale } = useRouter()
   const { title, feelinFood, schoolU } = workContent[locale]
 
   return (

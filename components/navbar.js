@@ -13,8 +13,7 @@ import {
   MenuButton,
   IconButton,
   useColorModeValue,
-  Divider
-} from '@chakra-ui/react'
+} from '@chakra-ui/react';
 import { useRouter } from 'next/router'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
@@ -49,7 +48,7 @@ const Navbar = props => {
     }
   }
   const { path } = props
-  const { locale, locales, defaultLocale, asPath } = useRouter()
+  const { locale} = useRouter()
   const { works} = navContent[locale]
 
   return (

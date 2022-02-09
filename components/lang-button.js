@@ -1,15 +1,6 @@
 import { AnimatePresence, motion } from 'framer-motion'
-import {
-  IconButton,
-  useColorMode,
-  useColorModeValue,
-  Button,
-  Divider,
-  Flex,
-  Stack
-} from '@chakra-ui/react'
+import { useColorModeValue, Button, Divider, Stack } from '@chakra-ui/react';
 import ReactCountryFlag from "react-country-flag"
-import { SunIcon, MoonIcon, EmailIcon } from '@chakra-ui/icons'
 import { useRouter } from 'next/router'
 import NextLink from 'next/link'
 

@@ -1,21 +1,11 @@
-import React from 'react'
-import NextLink from 'next/link'
 import { useRouter } from 'next/router'
-import { useEffect, useRef, useState } from 'react'
+import { useEffect} from 'react';
 import Paragraph from '../components/paragraph'
 import { motion, useMotionValue, useSpring } from 'framer-motion'
 import QRCode from 'qrcode.react'
 import Section from '../components/section'
 import { Meta } from '../components/work'
-import {
-  Container,
-  Heading,
-  SimpleGrid,
-  Box,
-  Button,
-  List,
-  ListItem
-} from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Box, List, ListItem } from '@chakra-ui/react';
 
 import Layout from '../components/layouts/article'
 import styles from '../lib/bio.module.css'
@@ -99,7 +89,7 @@ const bioContent = {
 }
 
 export default function Bio() {
-  const { locale, locales, defaultLocale, asPath } = useRouter()
+  const { locale} = useRouter()
   const {
     title,
     content,
@@ -137,9 +127,6 @@ export default function Bio() {
 
   const cursorX = useMotionValue(-100)
   const cursorY = useMotionValue(-100)
-
-  const [hovered, setHovered] = useState(false)
-  const toggleHover = () => setHovered(!hovered)
 
   const springConfig = { damping: 25, stiffness: 700 }
   const cursorXSpring = useSpring(cursorX, springConfig)
@@ -321,7 +308,7 @@ export default function Bio() {
                   <Heading as="h4" fontSize={16} mb={4}>
                   {experienceSecondElTitle}<Meta> {experienceSecondElTag}</Meta>
                   </Heading>
-                  <Paragraph>CHATEAUD'EAU</Paragraph>
+                  <Paragraph>CHATEAUD&apos;EAU</Paragraph>
                   <Paragraph>2014 - 2017</Paragraph>
                   <hr style={{ marginTop: '10px', marginBottom: '10px' }}></hr>
                   <List>

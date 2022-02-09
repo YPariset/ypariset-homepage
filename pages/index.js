@@ -65,7 +65,7 @@ export default function Home() {
     }
   }
 
-  const { locale, locales, defaultLocale, asPath } = useRouter()
+  const { locale} = useRouter()
   const {
     title,
     desc,
