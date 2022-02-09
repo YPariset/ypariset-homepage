@@ -163,12 +163,12 @@ export default function Bio() {
             </Section>
           </Container>
         </Layout>
-      <div id="section02" className={styles.resumeDiv}>
+      <div className={styles.resumeDiv}>
         <div className={styles.scanLabel}>
           <h2 className={styles.titleDiv}>Scan & Go</h2>
           <span className={styles.whitespace}>{download}</span>
         </div>
-        <div className={styles.motion}>
+        <div>
           <motion.div
             className={styles.cursor}
             style={{

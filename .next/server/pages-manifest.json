@@ -1,15 +1,7 @@
 {
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/works": "pages/works.js",
-  "/works/feelinFood": "pages/works/feelinFood.js",
-  "/works/schoolU": "pages/works/schoolU.js",
   "/_error": "pages/_error.js",
-  "/en-US/500": "pages/en-US/500.html",
-  "/fr-FR/500": "pages/fr-FR/500.html",
-  "/en-US/bio-details": "pages/en-US/bio-details.html",
-  "/fr-FR/bio-details": "pages/fr-FR/bio-details.html",
-  "/en-US/404": "pages/en-US/404.html",
-  "/fr-FR/404": "pages/fr-FR/404.html"
+  "/bio-details": "pages/bio-details.js",
+  "/404": "pages/404.js"
 }
