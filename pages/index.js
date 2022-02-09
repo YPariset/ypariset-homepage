@@ -22,7 +22,7 @@ import thumbSchoolU from '../public/images/works/homepage_schoolU.png'
 export default function Home() {
   const homeContent = {
     'en-US': {
-      title: "Hello, I'm a full-stack developer based in France ! 🇫🇷",
+      title: "Hello, I'm a full-stack developer based in France ! 👨‍💻",
       desc: 'Digital Craftsman (Developer / Designer)',
       workIntro:
         'My name is Yoann, I am a 23 years old junior web developer. I consider that the foundation of a good developer is a constant desire to learn and follow new trends. My goal is to combine design and technology, in order to create attractive websites as well as web applications. I love music, travelling and video-games. I believe that a multidisciplinary artistic vision has a positive impact on my work.',
@@ -65,7 +65,7 @@ export default function Home() {
     }
   }
 
-  const { locale} = useRouter()
+  const {locale} = useRouter()
   const {
     title,
     desc,
