@@ -101,13 +101,14 @@ const Navbar = props => {
             <IoLogoGithub />
             Github
           </LinkItem>
+          
+          
+          
         </Stack>
         <Box flex={1} align="right">
           <div style={{display: 'flex'}}>
           <LangToggleButton />
           <ThemeToggleButton />
-
-          </div>
 
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
             <Menu isLazy id="navbar-menu">
@@ -130,6 +131,7 @@ const Navbar = props => {
               </MenuList>
             </Menu>
           </Box>
+          </div>
         </Box>
       </Container>
     </Box>

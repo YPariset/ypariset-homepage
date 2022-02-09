@@ -147,7 +147,6 @@ export default function Bio() {
 
   return (
     <div className="Bio">
-      <div>
         <Layout title="Bio">
           <Container maxW="container.lg">
             <Heading as="h2" variant="section-title" fontSize={20} mb={4}>
@@ -164,7 +163,6 @@ export default function Bio() {
             </Section>
           </Container>
         </Layout>
-      </div>
       <div id="section02" className={styles.resumeDiv}>
         <div className={styles.scanLabel}>
           <h2 className={styles.titleDiv}>Scan & Go</h2>
@@ -196,7 +194,7 @@ export default function Bio() {
       </div>
       <div>
         <Layout title="Bio">
-          <Container style={{ height: '80vh' }} maxW="container.lg">
+          <Container maxW="container.lg">
             <SimpleGrid columns={[1, 1, 2]} gap={6}>
               <Section>
                 <Box flexShrink={0} mt={8}>
@@ -262,11 +260,7 @@ export default function Bio() {
               </Section>
             </SimpleGrid>
           </Container>
-        </Layout>
-      </div>
-      <div>
-        <Layout title="Bio">
-          <Container style={{ height: '80vh', marginBottom:'100px' }} maxW="container.lg">
+          <Container maxW="container.lg">
             <SimpleGrid columns={[1, 1, 2]} gap={6}>
               <Section>
                 <Box flexShrink={0} mt={16}>
@@ -279,7 +273,7 @@ export default function Bio() {
                 </Box>
               </Section>
               <Section>
-                <Box style={{ marginTop: '115px' }} ml={6}>
+                <Box style={{ marginTop: '100px' }} ml={6}>
                   <Heading as="h4" fontSize={16} mb={4}>
                     {experienceFirstElTitle}
                     <Meta>{experienceFirstElTag}</Meta>

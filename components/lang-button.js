@@ -31,8 +31,8 @@ const LangButton = () => {
                 countryCode="US"
                 svg
                 style={{
-                    width: '1.5em',
-                    height: '1.5em',
+                    width: '1em',
+                    height: '1em',
                 }}
                 title="US"
             />
@@ -51,8 +51,8 @@ const LangButton = () => {
                 countryCode="FR"
                 svg
                 style={{
-                  width: '1.5em',
-                  height: '1.5em',
+                  width: '1em',
+                  height: '1em',
                 }}
                 title="FR"
             />

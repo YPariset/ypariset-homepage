@@ -1,8 +1,10 @@
 {
   "../components/layouts/main.js -> ../voxel-dog": {
-    "id": "../components/layouts/main.js -> ../voxel-dog",
+    "id": 6430,
     "files": [
-      "static/chunks/components_voxel-dog_js.js"
+      "static/chunks/fb7d5399.82376fa9531e520d.js",
+      "static/chunks/330.30fc715b8798d208.js",
+      "static/chunks/430.6a5ace9178f67ccc.js"
     ]
   }
 }
