@@ -43,7 +43,7 @@ export default function Home() {
         'A React-native app that reinvents communication between parents and teachers.'
     },
     'fr-FR': {
-      title: 'Bonjour, je suis un développeur basé en France ! 🇫🇷',
+      title: 'Bonjour, je suis un développeur basé en France ! 👨‍💻',
       desc: 'Artisan numérique (Développeur / Designer)',
       workIntro:
         "Je m'appelle Yoann, je suis un développeur web junior de 23 ans. Je considère que la base d'un bon développeur est un désir constant d'apprendre et de suivre les nouvelles tendances. Mon objectif est d'allier design et technologie, afin de créer des sites web attractifs ainsi que des applications web. J'aime la musique, les voyages et les jeux vidéo. Je crois qu'une vision artistique multidisciplinaire a un impact positif sur mon travail.",
