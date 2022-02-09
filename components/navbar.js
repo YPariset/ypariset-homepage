@@ -12,10 +12,13 @@ import {
   MenuList,
   MenuButton,
   IconButton,
-  useColorModeValue
+  useColorModeValue,
+  Divider
 } from '@chakra-ui/react'
+import { useRouter } from 'next/router'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
+import LangToggleButton from './lang-button'
 import { IoLogoGithub } from 'react-icons/io5'
 
 const LinkItem = ({ href, path, _target, children, ...props }) => {
@@ -37,7 +40,17 @@ const LinkItem = ({ href, path, _target, children, ...props }) => {
 }
 
 const Navbar = props => {
+  const navContent = {
+    'en-US': {
+      works: 'Works',
+    },
+    'fr-FR': {
+      works: 'Réalisations',
+    }
+  }
   const { path } = props
+  const { locale, locales, defaultLocale, asPath } = useRouter()
+  const { works} = navContent[locale]
 
   return (
     <Box
@@ -52,7 +65,7 @@ const Navbar = props => {
       <Container
         display="flex"
         p={2}
-        maxW="container.md"
+        maxW="container.lg"
         wrap="wrap"
         align="center"
         justify="space-between"
@@ -71,8 +84,11 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
+          <LinkItem href="/bio-details" path={path}>
+            Bio
+          </LinkItem>
           <LinkItem href="/works" path={path}>
-            Works
+            {works}
           </LinkItem>
           <LinkItem
             _target="_blank"
@@ -87,9 +103,12 @@ const Navbar = props => {
             Github
           </LinkItem>
         </Stack>
-
         <Box flex={1} align="right">
+          <div style={{display: 'flex'}}>
+          <LangToggleButton />
           <ThemeToggleButton />
+
+          </div>
 
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
             <Menu isLazy id="navbar-menu">
@@ -106,10 +125,7 @@ const Navbar = props => {
                 <NextLink href="/works" passHref>
                   <MenuItem as={Link}>Works</MenuItem>
                 </NextLink>
-                <MenuItem
-                  as={Link}
-                  href="https://github.com/ypariset"
-                >
+                <MenuItem as={Link} href="https://github.com/ypariset">
                   Github
                 </MenuItem>
               </MenuList>

@@ -1,0 +1,77 @@
+
+.resumeDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.resumeDiv:hover .cursor {
+  visibility: visible;
+}
+
+.titleDiv {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.whitespace{
+  white-space: pre-line;
+}
+
+.chevron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.scanLabel {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.cursor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 256px;
+  height: 256px;
+  border-radius: 124px;
+  background-color: white;
+  mix-blend-mode: difference;
+  z-index: 999;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.scan {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scanDivChild {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 256px;
+  height: 256px;
+  border-radius: 124px;
+  
+}
+
+.qrcode {
+  visibility: hidden;
+}
+
+
+.scanDivChild:hover .qrcode,
+.qrcode:hover {
+  visibility: visible;
+}
+
+
