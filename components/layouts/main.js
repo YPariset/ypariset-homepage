@@ -20,6 +20,7 @@ const Main = ({ children, router }) => {
         <meta name="description" content="Yoann Pariset homepage" />
         <meta name="author" content="Yoann Pariset" />
         <meta name="author" content="parizoo" />
+        <meta name="google-site-verification" content="M9Xt3EbLlVqLBWyrz-rqk77PZZdUudq4VqrBtv8LEqE" />
         <meta property="og:site_name" content="Yoann Pariset Homepage" />
         <meta property="og:type" content="website" />
         <meta name="keywords" content="Yoann, Pariset, Sorbonne, Sorbonne Universite, Developpeur web, CFA, Sciences, Three.js, Three, JS, HTML, CSS, PHP, Java, Javascript, React-native"/>

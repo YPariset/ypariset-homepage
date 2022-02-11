@@ -46,18 +46,18 @@ export default function Home() {
       title: 'Bonjour, je suis un développeur basé en France ! 👨‍💻',
       desc: 'Artisan numérique (Développeur / Designer)',
       workIntro:
-        "Je m'appelle Yoann, je suis un développeur web junior de 23 ans. Je considère que la base d'un bon développeur est un désir constant d'apprendre et de suivre les nouvelles tendances. Mon objectif est d'allier design et technologie, afin de créer des sites web attractifs ainsi que des applications web. J'aime la musique, les voyages et les jeux vidéo. Je crois qu'une vision artistique multidisciplinaire a un impact positif sur mon travail.",
+        "Je suis Yoann, un développeur junior de 23 ans. Je considère que la base d'un bon développeur est un désir constant d'apprendre et de suivre les nouvelles tendances. Mon objectif est d'allier design et technologie, afin de créer des sites web attractifs ainsi que des applications web. J'aime la musique, les voyages et les jeux vidéo. Je crois qu'une vision artistique multidisciplinaire a un impact positif sur mon travail.",
       workTitle: 'Réalisations',
       workButton: 'Mon portfolio',
-      bioBirth: 'Né à Drancy(93), France.',
-      bioBac: 'Obtention du diplôme BAC PRO SEN - Télécoms & Réseau',
+      bioBirth: 'Né à Drancy (93), France.',
+      bioBac: 'Obtention du diplôme BAC PRO SEN - Télécoms & Réseaux',
       bioPostBac:
         "Obtention du diplôme d'Analyste Développeur d'Applications Web et Mobile",
       bioFreelance: 'Travaille en freelance',
       bioSorbonne:
-        'Actuellement étudiant à Sorbonne Université et en alternance chez CNP Assurances',
+        'Actuellement étudiant à la Sorbonne Université et en alternance chez CNP Assurances',
       bioButton: 'Mon CV',
-      projects: 'Quelques projets',
+      projects: 'Quelques réalisations',
       feelinFood:
         'Un e-commerce PHP conçue autour de la livraison de nourriture.',
       schoolU:
