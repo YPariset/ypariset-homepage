@@ -335,3 +335,5 @@ export default function Bio() {
     </div>
   )
 }
+
+export { getServerSideProps } from '../components/chakra'
